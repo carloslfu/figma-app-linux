@@ -4,7 +4,7 @@ Unofficial Figma desktop app rebuild for Linux users who want a workaround while
 
 Before run the AppImage you may need to install libfontconfig with: `sudo apt-get install libfontconfig-dev`, some distros don't need it.
 
-Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/download/1.0/Figma-63.3.0-x86_64.AppImage).
+Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/download/v2/Figma-63.3.0-x86_64.AppImage).
 
 ## Steps to build
 
