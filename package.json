@@ -1,0 +1,31 @@
+{
+  "name": "figma-app-linux",
+  "version": "0.0.1",
+  "description": "Unofficial Figma desktop app rebuild for Linux users",
+  "scripts": {
+    "getSrc": "node scripts/runGetSrc",
+    "build": "build"
+  },
+  "author": "Carlos Galarza <carloslfu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "adm-zip": "^0.4.11",
+    "asar": "^0.14.3",
+    "electron-builder": "^20.28.3",
+    "rimraf": "^2.6.2"
+  },
+  "main": "app/main.js",
+  "build": {
+    "appId": "Figma",
+    "files": [
+      "**/*",
+      "app/**/*"
+    ],
+    "linux": {
+      "category": "Development",
+      "target": [
+        "AppImage"
+      ]
+    }
+  }
+}
