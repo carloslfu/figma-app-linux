@@ -2,7 +2,7 @@
 
 Unofficial Figma desktop app rebuild for Linux users who want a workaround while official version is released. We <3 Figma :).
 
-Link to installer [here](), is an AppImage.
+Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/download/1.0/Figma-63.3.0-x86_64.AppImage).
 
 ## Steps to build
 
