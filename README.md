@@ -16,3 +16,25 @@ Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/do
 - Go to root folder and run: `npm run electron-rebuild`
 - Run: `npm run build`
 - After packaging, the binaries should be in the `dist/` folder
+
+## Install script
+
+You also may build and install Figma app by `./install.sh` in cli.
+
+### What does the install.sh do?
+- Clones git repo in `/figma-app-linux_x64`
+- Builds the Figma app by commands writed above in **Steps to build**
+- Copies `*.AppImage` to `/usr/bin/`
+- Removes source files
+- Starts Up the Figma app(don't forget confirm *.AppImage dialog)
+``
+If you encountered with electron-rebuild error(exit code 255) don't worry. App will be fully assembled.
+``
+### Tested platform
+- OS Manjaro Linux x86_64 *(Archlinux derivative)*
+- npm 5.6.0
+- node v8.11.2
+
+### Things to do
+- Add icon for app
+- Add prompt for removing source files
