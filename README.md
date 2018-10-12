@@ -22,7 +22,7 @@ Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/do
 You also may build and install Figma app by `./install.sh` in cli.
 
 ### What does the install.sh do?
-- Clones git repo in `/figma-app-linux_x64`
+- Clones git repo in `~/figma-app-linux_x64`
 - Builds the Figma app by commands writed above in **Steps to build**
 - Copies `*.AppImage` to `/usr/bin/`
 - Removes source files
