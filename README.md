@@ -14,9 +14,9 @@ Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/do
 - Setup environment variable: `export npm_config_target=8.9.3`
 - Go to `app/` folder and install font support with `npm i font-manager`
 - Go to root folder and run: `npm run electron-rebuild`
-    * (If this returns an error, running the command as `sudo` could work.)
+    * (If this returns an error, running the command as `sudo` could work)
 - Run: `npm run build`
-    * (If this returns an error, running the command as `sudo` could work.)
+    * (If this returns an error, running the command as `sudo` could work)
 - After packaging, the binaries should be in the `dist/` folder
 
 ## Install script
@@ -40,3 +40,4 @@ If you encountered with electron-rebuild error(exit code 255) don't worry. App w
 ### Things to do
 - Add icon for app
 - Add prompt for removing source files
+- Fix so issue #14 doesn't occur again
