@@ -4,14 +4,13 @@ Unofficial Figma desktop app rebuild for Linux users who want a workaround while
 
 Before run the AppImage you may need to install libfontconfig with: `sudo apt-get install libfontconfig-dev`, some distros don't need it.
 
-Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/download/v2/Figma-63.3.0-x86_64.AppImage).
+Link to AppImage [here](https://github.com/carloslfu/figma-app-linux/releases/download/v3/Figma-68.5.0-x86_64.AppImage).
 
 ## Steps to build
 
 - `npm i`
 - `npm run getSrc`
 - Relpace `./app/bindings.js` with `./custom/bindings.js` file
-- Setup environment variable: `export npm_config_target=8.9.3`
 - Go to `app/` folder and install font support with `npm i font-manager`
 - Go to root folder and run: `npm run electron-rebuild`
     * (If this returns an error, running the command as `sudo` could work)
@@ -38,6 +37,6 @@ If you encountered with electron-rebuild error(exit code 255) don't worry. App w
 - node v8.11.2
 
 ### Things to do
-- Add icon for app
+- Add icon to app
 - Add prompt for removing source files
 - Fix so issue #14 doesn't occur again
