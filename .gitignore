@@ -3,3 +3,4 @@ downloads/app/
 downloads/app.zip
 dist/
 node_modules/
+.DS_Store
