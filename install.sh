@@ -15,7 +15,6 @@ cd $HOME/figma-app-linux_x64;
 npm i;
 npm run getSrc;
 cp ./custom/bindings.js ./app/bindings.js;
-export npm_config_target=8.9.3;
 cd ./app;
 npm i font-manager;
 cd ../;
