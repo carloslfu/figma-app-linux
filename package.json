@@ -4,7 +4,7 @@
   "description": "Unofficial Figma desktop app rebuild for Linux users",
   "scripts": {
     "getSrc": "node scripts/runGetSrc",
-    "build": "build",
+    "build": "build -l",
     "electron-rebuild": "electron-rebuild --parallel --force --types prod,dev,optional --module-dir app"
   },
   "author": "Carlos Galarza <carloslfu@gmail.com>",
