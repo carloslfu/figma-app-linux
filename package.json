@@ -13,7 +13,7 @@
     "adm-zip": "^0.4.11",
     "asar": "^0.14.3",
     "electron": "^7.2.4",
-    "electron-builder": "^20.28.3",
+    "electron-builder": "^20.44.4",
     "electron-prebuilt": "^1.4.13",
     "electron-rebuild": "^1.8.2",
     "rimraf": "^2.6.2"
